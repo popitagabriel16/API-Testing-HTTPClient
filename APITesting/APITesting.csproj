@@ -23,7 +23,7 @@
     <Compile Update="Features\Login.feature.cs">
       <DependentUpon>Login.feature</DependentUpon>
     </Compile>
-    <Compile Update="TDDModels\TestData.Designer.cs">
+    <Compile Update="TDDTests\TestData.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>TestData.resx</DependentUpon>
@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="TDDModels\TestData.resx">
+    <EmbeddedResource Update="TDDTests\TestData.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>TestData.Designer.cs</LastGenOutput>
     </EmbeddedResource>

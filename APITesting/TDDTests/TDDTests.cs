@@ -13,9 +13,8 @@ using System.IO;
 using TechTalk.SpecFlow;
 using System.Linq;
 using APITesting.TDDModels;
-using APITesting.TDDTests;
 
-namespace APITesting.TDD_Models
+namespace APITesting.TDDTests
 {
     [TestFixture]
     public class Tests
