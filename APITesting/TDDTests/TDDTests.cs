@@ -37,7 +37,6 @@ namespace APITesting.TDDTests
         public async Task GetUserByID_ShouldReturnUser()
         {
             HttpClient client = new HttpClient();
-            string apiUrl = "https://reqres.in/api/users?page=2";
             string endpoint = "users?page=2";
 
             var baseUrl = _configurationReader.GetBaseUrl();
@@ -75,7 +74,6 @@ namespace APITesting.TDDTests
         {
             // Arrange
             HttpClient client = new HttpClient();
-            string apiUrl = "https://reqres.in/api/users/2";
 
             var updateUser = new Job
             {
