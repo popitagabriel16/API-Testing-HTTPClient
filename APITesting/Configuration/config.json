@@ -1,0 +1,15 @@
+{
+  "Development": {
+    "BaseUrl": "https://reqres.in/api/",
+    "ApiKey": "API_TOKEN"
+  },
+  "Staging": {
+    "BaseUrl": "https://reqres.in/api/",
+    "ApiKey": "API_TOKEN"
+  },
+  "Production": {
+    "BaseUrl": "https://reqres.in/api/",
+    "ApiKey": "API_TOKEN"
+  }
+}
+
